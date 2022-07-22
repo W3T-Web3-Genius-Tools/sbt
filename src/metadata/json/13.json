@@ -1,16 +1,16 @@
 {
   "description": "Singing  Drinking  Cheering , We are Palling",
-  "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/3.png",
-  "name": "航海家 #3",
-  "tokenId": "3",
+  "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/13.png",
+  "name": "贡献者 #13",
+  "tokenId": "13",
   "attributes": [
     {
       "trait_type": "荣誉类型",
-      "value": "航海家"
+      "value": "贡献者"
     },
     {
       "trait_type": "获奖人",
-      "value": "0x0F4dC55461E12427Ee7746a76cD58Cd95bf0a7Ea"
+      "value": "0xa741296A1E9DDc3D6Cf431B73C6225cFb5F6693a"
     },
     {
       "trait_type": "签署日期",

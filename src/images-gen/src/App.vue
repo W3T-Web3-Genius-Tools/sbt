@@ -15,7 +15,7 @@
       身份： <select v-model="choseResult">
       <option value="航海家">航海家</option>
       <option value="探险家">探险家</option>
-      <option value="贡献人">贡献人</option>
+      <option value="贡献者">贡献者</option>
     </select>
       <div>
         地址：
@@ -26,7 +26,6 @@
         <button @click="downloadCanvasImage('自定义刻字')">自定义刻字</button>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -43,7 +42,7 @@ const images = ref(null)
 const choseResult = ref("航海家")
 const userAddress = ref("0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7")
 
-const imageList = {航海家: image1, 探险家: image2, 贡献人: image3}
+const imageList = {航海家: image1, 探险家: image2, 贡献者: image3}
 
 const downloadAllImage = async () => {
   for (let i = 0; i < data.length; i++) {
