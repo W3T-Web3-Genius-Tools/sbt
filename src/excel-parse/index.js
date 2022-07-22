@@ -40,7 +40,7 @@ fs.readFile(path.join(__dirname, './data.txt'), (err, res) => {
     // 生成多文件-单文件
     for (let i = 0; i < resultJSON.length; i++) {
         console.log(resultJSON[i])
-        fs.writeFileSync(path.join(__dirname, `../metadata/${resultJSON[i].tokenId}.json`), JSON.stringify(resultJSON[i], null, 2))
+        fs.writeFileSync(path.join(__dirname, `../metadata/json/${resultJSON[i].tokenId}.json`), JSON.stringify(resultJSON[i], null, 2))
     }
 
     if (!isError) {

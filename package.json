@@ -1,0 +1,21 @@
+{
+  "name": "sbt",
+  "version": "1.0.0",
+  "description": "🏆 sbt勋章，奖赏那些热爱学习和参与贡献的强者。",
+  "main": "index.js",
+  "scripts": {
+    "gm": "node src/excel-parse/index.js",
+    "gi": "cd src/images-gen && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W3T-Web3-Genius-Tools/sbt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/W3T-Web3-Genius-Tools/sbt/issues"
+  },
+  "homepage": "https://github.com/W3T-Web3-Genius-Tools/sbt#readme"
+}

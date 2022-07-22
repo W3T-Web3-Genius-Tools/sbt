@@ -11,6 +11,7 @@
       </div>
     </div>
     <div class="control">
+      <div><b>仪表盘</b></div>
       身份： <select v-model="choseResult">
       <option value="航海家">航海家</option>
       <option value="探险家">探险家</option>
@@ -25,6 +26,7 @@
         <button @click="downloadCanvasImage('自定义刻字')">自定义刻字</button>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -95,12 +97,22 @@ const downloadCanvasImage = async (fileName) => {
 }
 
 .control {
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #000;
+  height: 140px;
   line-height: 2;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
 
 .control input {
   width: 330px;
+}
+
+#app {
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
 }
 
 .control button {
