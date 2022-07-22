@@ -1,13 +1,13 @@
 import "erc721a/contracts/ERC721A.sol";
 
-contract LifeOfSea is ERC721A {
+contract TheGreatSeafaringEra is ERC721A {
     address proxyAddress;
     address owner;
     string baseURI;
     string contractMetadata;
 
     constructor(string memory _baseURI, string memory _contractMetadata)
-        ERC721A("Life of Sea", "Sea")
+        ERC721A("The Great Seafaring Era", "TGSE")
     {
         owner = msg.sender;
         baseURI = _baseURI;
@@ -65,7 +65,7 @@ contract LifeOfSea is ERC721A {
         contractMetadata = _contractMetadata;
     }
 
-    function setBaseURI(string calldata _baseURI) external onlyOwner {
+    function setBaseURI(string memory _baseURI) external onlyOwner {
         baseURI = _baseURI;
     }
 
