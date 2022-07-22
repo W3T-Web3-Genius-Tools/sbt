@@ -1,23 +1,31 @@
 <template>
-  <div ref="images" class="images">
-    <img :src="imageList[choseResult]" alt="Vue logo" width="888">
-    <div class="content">
-      <p>
-        {{ userAddress.slice(0, 21) }}
-        <br/>
-        {{ userAddress.slice(-21) }}
-      </p>
+  <div class="container">
+    <div ref="images" class="images">
+      <img :src="imageList[choseResult]" alt="Vue logo" width="888">
+      <div class="content">
+        <p>
+          {{ userAddress.slice(0, 21) }}
+          <br/>
+          {{ userAddress.slice(-21) }}
+        </p>
+      </div>
+    </div>
+    <div class="control">
+      身份： <select v-model="choseResult">
+      <option value="航海家">航海家</option>
+      <option value="探险家">探险家</option>
+      <option value="贡献人">贡献人</option>
+    </select>
+      <div>
+        地址：
+        <input v-model="userAddress" placeholder="User Address" type="text">
+      </div>
+      <div>
+        <button @click="downloadAllImage">开始批量刻字</button>
+        <button @click="downloadCanvasImage('自定义刻字')">自定义刻字</button>
+      </div>
     </div>
   </div>
-  <select v-model="choseResult">
-    <option value="航海家">航海家</option>
-    <option value="探险家">探险家</option>
-    <option value="贡献人">贡献人</option>
-  </select>
-  <br/>
-  <input v-model="userAddress" placeholder="User Address" type="text">
-  <br/>
-  <button @click="downloadAll">开始批量刻字</button>
 </template>
 
 <script setup>
@@ -30,40 +38,45 @@ import image2 from '@/assets/2.png'
 import image3 from '@/assets/3.png'
 
 const images = ref(null)
-let choseResult = ref("航海家")
-let userAddress = ref("0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7")
+const choseResult = ref("航海家")
+const userAddress = ref("0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7")
 
-const imageList = {
-  航海家: image1, 探险家: image2, 贡献人: image3
-}
+const imageList = {航海家: image1, 探险家: image2, 贡献人: image3}
 
-const lazyLoadImage = (i) => new Promise((resolve) => {
-  setTimeout(() => {
-    console.log(data[i])
-    userAddress.value = data[i].attributes[1].value
-    choseResult.value = data[i].attributes[0].value
-    downloadImage(data[i].tokenId)
-    resolve()
-  }, 3000)
-})
-
-const downloadAll = async () => {
+const downloadAllImage = async () => {
   for (let i = 0; i < data.length; i++) {
-    await lazyLoadImage(data, i)
+    console.log(data[i].tokenId)
+    await lazyDownloadOnceImage(data, i)
   }
 }
 
-const downloadImage = (data, tokenId) => {
-  html2canvas(images.value, {scale: 3}).then(function (canvas) {
-    const aLabel = document.createElement("a");
-    aLabel.href = canvas.toDataURL();
-    aLabel.download = tokenId; // 下载的文件名
-    aLabel.click();
-  });
+const lazyDownloadOnceImage = (data, index) => new Promise((resolve) => {
+  setTimeout(() => {
+    userAddress.value = data[index].attributes[1].value
+    choseResult.value = data[index].attributes[0].value
+    downloadCanvasImage(data[index].tokenId)
+    resolve()
+  }, 500)
+})
+
+
+const downloadCanvasImage = async (fileName) => {
+  setTimeout(() => {
+    html2canvas(images.value, {scale: 3}).then(function (canvas) {
+      const aLabel = document.createElement("a");
+      aLabel.href = canvas.toDataURL();
+      aLabel.download = fileName; // 下载的文件名
+      aLabel.click();
+    });
+  }, 0) // 延迟0ms，保证在下一个tick中执行
 }
 </script>
 
 <style>
+.container {
+  display: flex;
+}
+
 .images {
   width: 888px;
   height: 888px;
@@ -79,5 +92,18 @@ const downloadImage = (data, tokenId) => {
   font-weight: 800;
   line-height: 1;
   font-family: "Ubuntu Mono";
+}
+
+.control {
+  padding: 20px;
+  line-height: 2;
+}
+
+.control input {
+  width: 330px;
+}
+
+.control button {
+  margin-right: 20px;
 }
 </style>
