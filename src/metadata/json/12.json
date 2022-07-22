@@ -1,6 +1,6 @@
 {
   "description": "Singing  Drinking  Cheering , We are Palling",
-  "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/12.png",
+  "image": "https://github.com/W3T-Web3-Genius-Tools/sbt/edit/main/src/metadata/12.png",
   "name": "航海家 #12",
   "tokenId": "12",
   "attributes": [
@@ -15,7 +15,7 @@
     {
       "trait_type": "签署日期",
       "display_type": "date",
-      "value": 1658473336986
+      "value": 1658475784229
     },
     {
       "trait_type": "签署方",
