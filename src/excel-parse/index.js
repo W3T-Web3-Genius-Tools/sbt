@@ -23,7 +23,7 @@ fs.readFile(path.join(__dirname, './data.txt'), (err, res) => {
         const dataTime = new Date().getTime()
         const metadata = {
             description: "Singing  Drinking  Cheering , We are Palling",
-            image: `https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/${item.tokenId}.png`,
+            image: `https://github.com/W3T-Web3-Genius-Tools/sbt/edit/main/src/metadata/${item.tokenId}.png`,
             name: `${item.type} #${item.tokenId}`,
             tokenId: item.tokenId,
             attributes:
