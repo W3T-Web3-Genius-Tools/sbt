@@ -1,6 +1,21 @@
 const fs = require('fs')
 const path = require('path')
 
+const tokenType = {
+    航海家: {
+        tag: "Rookie–Badge of Navigators",
+        desc: "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!"
+    },
+    探险家: {
+        tag: "Graduates–Badge of Explorers",
+        desc: "Now you are so skillful and so ready to explore the ocean of Web3 on your own! You have tech and knowledge as your paddles to deal with any trouble in the riptides. Set sail, the fearless Explorer!"
+    },
+    贡献者: {
+        tag: "Contributor–Badge of Lighthouse",
+        desc: "Sharing is the glory. Every tiny distribution is like a lighthouse in the ocean,  a shining star in the dark night, guiding the course for the sailing ships. What admirable Contributors!"
+    },
+}
+
 fs.readFile(path.join(__dirname, './data.txt'), (err, res) => {
     let isError = false;
     if (err) {
@@ -22,15 +37,15 @@ fs.readFile(path.join(__dirname, './data.txt'), (err, res) => {
     }).map(item => {
         const dataTime = new Date().getTime()
         const metadata = {
-            description: "Singing  Drinking  Cheering , We are Palling",
+            description: tokenType[item.type].desc,
             image: `https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/${item.tokenId}.png`,
-            name: `${item.type} #${item.tokenId}`,
+            name: `${tokenType[item.type].tag} #${item.tokenId}`,
             tokenId: item.tokenId,
             attributes:
-                [{trait_type: '荣誉类型', value: item.type},
-                    {trait_type: '获奖人', value: item.userAddress},
-                    {trait_type: '签署日期', "display_type": "date", value: dataTime},
-                    {trait_type: '签署方', value: "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"}]
+                [{trait_type: 'Type of Honor', value: tokenType[item.type].tag},
+                    {trait_type: 'Award Address', value: item.userAddress},
+                    {trait_type: 'Signature Date', "display_type": "date", value: dataTime},
+                    {trait_type: 'Signatories', value: "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"}]
         }
         return metadata
     })

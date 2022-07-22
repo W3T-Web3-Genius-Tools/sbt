@@ -1,24 +1,24 @@
 {
-  "description": "Singing  Drinking  Cheering , We are Palling",
+  "description": "Now you are so skillful and so ready to explore the ocean of Web3 on your own! You have tech and knowledge as your paddles to deal with any trouble in the riptides. Set sail, the fearless Explorer!",
   "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/2.png",
-  "name": "探险家 #2",
+  "name": "Graduates–Badge of Explorers #2",
   "tokenId": "2",
   "attributes": [
     {
-      "trait_type": "荣誉类型",
-      "value": "探险家"
+      "trait_type": "Type of Honor",
+      "value": "Graduates–Badge of Explorers"
     },
     {
-      "trait_type": "获奖人",
+      "trait_type": "Award Address",
       "value": "0xa741296A1E9DDc3D6Cf431B73C6225cFb5F6693a"
     },
     {
-      "trait_type": "签署日期",
+      "trait_type": "Signature Date",
       "display_type": "date",
-      "value": 1658481551833
+      "value": 1658503510874
     },
     {
-      "trait_type": "签署方",
+      "trait_type": "Signatories",
       "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
     }
   ]

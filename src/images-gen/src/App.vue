@@ -38,6 +38,12 @@ import image1 from '@/assets/1.png'
 import image2 from '@/assets/2.png'
 import image3 from '@/assets/3.png'
 
+const tokenType = {
+  "Rookie–Badge of Navigators": "航海家",
+  "Graduates–Badge of Explorers": "探险家",
+  "Contributor–Badge of Lighthouse": "贡献者"
+}
+
 const images = ref(null)
 const choseResult = ref("航海家")
 const userAddress = ref("0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7")
@@ -54,7 +60,7 @@ const downloadAllImage = async () => {
 const lazyDownloadOnceImage = (data, index) => new Promise((resolve) => {
   setTimeout(() => {
     userAddress.value = data[index].attributes[1].value
-    choseResult.value = data[index].attributes[0].value
+    choseResult.value = tokenType[data[index].attributes[0].value]
     downloadCanvasImage(data[index].tokenId)
     resolve()
   }, 500)

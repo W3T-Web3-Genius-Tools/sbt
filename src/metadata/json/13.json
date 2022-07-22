@@ -1,24 +1,24 @@
 {
-  "description": "Singing  Drinking  Cheering , We are Palling",
+  "description": "Sharing is the glory. Every tiny distribution is like a lighthouse in the ocean,  a shining star in the dark night, guiding the course for the sailing ships. What admirable Contributors!",
   "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/13.png",
-  "name": "贡献者 #13",
+  "name": "Contributor–Badge of Lighthouse #13",
   "tokenId": "13",
   "attributes": [
     {
-      "trait_type": "荣誉类型",
-      "value": "贡献者"
+      "trait_type": "Type of Honor",
+      "value": "Contributor–Badge of Lighthouse"
     },
     {
-      "trait_type": "获奖人",
+      "trait_type": "Award Address",
       "value": "0xa741296A1E9DDc3D6Cf431B73C6225cFb5F6693a"
     },
     {
-      "trait_type": "签署日期",
+      "trait_type": "Signature Date",
       "display_type": "date",
-      "value": 1658481551833
+      "value": 1658503510875
     },
     {
-      "trait_type": "签署方",
+      "trait_type": "Signatories",
       "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
     }
   ]

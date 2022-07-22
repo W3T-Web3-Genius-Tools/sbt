@@ -1,24 +1,24 @@
 {
-  "description": "Singing  Drinking  Cheering , We are Palling",
+  "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
   "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/6.png",
-  "name": "航海家 #6",
+  "name": "Rookie–Badge of Navigators #6",
   "tokenId": "6",
   "attributes": [
     {
-      "trait_type": "荣誉类型",
-      "value": "航海家"
+      "trait_type": "Type of Honor",
+      "value": "Rookie–Badge of Navigators"
     },
     {
-      "trait_type": "获奖人",
+      "trait_type": "Award Address",
       "value": "0xCD38a0ae53654339B897Ca7fa30C601DBE5bBAa7"
     },
     {
-      "trait_type": "签署日期",
+      "trait_type": "Signature Date",
       "display_type": "date",
-      "value": 1658481551833
+      "value": 1658503510874
     },
     {
-      "trait_type": "签署方",
+      "trait_type": "Signatories",
       "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
     }
   ]
