@@ -3,6 +3,7 @@
     "description": "Singing  Drinking  Cheering , We are Palling",
     "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/0.png",
     "name": "航海家 #0",
+    "tokenId": "0",
     "attributes": [
       {
         "trait_type": "荣誉类型",
@@ -15,7 +16,7 @@
       {
         "trait_type": "签署日期",
         "display_type": "date",
-        "value": 1658435896876
+        "value": 1658460628497
       },
       {
         "trait_type": "签署方",
@@ -27,6 +28,7 @@
     "description": "Singing  Drinking  Cheering , We are Palling",
     "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/1.png",
     "name": "航海家 #1",
+    "tokenId": "1",
     "attributes": [
       {
         "trait_type": "荣誉类型",
@@ -39,7 +41,7 @@
       {
         "trait_type": "签署日期",
         "display_type": "date",
-        "value": 1658435896876
+        "value": 1658460628497
       },
       {
         "trait_type": "签署方",
@@ -51,6 +53,7 @@
     "description": "Singing  Drinking  Cheering , We are Palling",
     "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/2.png",
     "name": "探险家 #2",
+    "tokenId": "2",
     "attributes": [
       {
         "trait_type": "荣誉类型",
@@ -63,7 +66,7 @@
       {
         "trait_type": "签署日期",
         "display_type": "date",
-        "value": 1658435896876
+        "value": 1658460628497
       },
       {
         "trait_type": "签署方",
@@ -75,6 +78,7 @@
     "description": "Singing  Drinking  Cheering , We are Palling",
     "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/3.png",
     "name": "航海家 #3",
+    "tokenId": "3",
     "attributes": [
       {
         "trait_type": "荣誉类型",
@@ -87,7 +91,7 @@
       {
         "trait_type": "签署日期",
         "display_type": "date",
-        "value": 1658435896876
+        "value": 1658460628497
       },
       {
         "trait_type": "签署方",
@@ -99,6 +103,7 @@
     "description": "Singing  Drinking  Cheering , We are Palling",
     "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/4.png",
     "name": "航海家 #4",
+    "tokenId": "4",
     "attributes": [
       {
         "trait_type": "荣誉类型",
@@ -111,7 +116,7 @@
       {
         "trait_type": "签署日期",
         "display_type": "date",
-        "value": 1658435896876
+        "value": 1658460628497
       },
       {
         "trait_type": "签署方",
@@ -123,6 +128,7 @@
     "description": "Singing  Drinking  Cheering , We are Palling",
     "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/5.png",
     "name": "航海家 #5",
+    "tokenId": "5",
     "attributes": [
       {
         "trait_type": "荣誉类型",
@@ -135,7 +141,7 @@
       {
         "trait_type": "签署日期",
         "display_type": "date",
-        "value": 1658435896876
+        "value": 1658460628497
       },
       {
         "trait_type": "签署方",
@@ -147,6 +153,7 @@
     "description": "Singing  Drinking  Cheering , We are Palling",
     "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/6.png",
     "name": "航海家 #6",
+    "tokenId": "6",
     "attributes": [
       {
         "trait_type": "荣誉类型",
@@ -159,7 +166,7 @@
       {
         "trait_type": "签署日期",
         "display_type": "date",
-        "value": 1658435896876
+        "value": 1658460628497
       },
       {
         "trait_type": "签署方",
@@ -171,6 +178,7 @@
     "description": "Singing  Drinking  Cheering , We are Palling",
     "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/7.png",
     "name": "航海家 #7",
+    "tokenId": "7",
     "attributes": [
       {
         "trait_type": "荣誉类型",
@@ -183,7 +191,107 @@
       {
         "trait_type": "签署日期",
         "display_type": "date",
-        "value": 1658435896876
+        "value": 1658460628497
+      },
+      {
+        "trait_type": "签署方",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "Singing  Drinking  Cheering , We are Palling",
+    "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/8.png",
+    "name": "航海家 #8",
+    "tokenId": "8",
+    "attributes": [
+      {
+        "trait_type": "荣誉类型",
+        "value": "航海家"
+      },
+      {
+        "trait_type": "获奖人",
+        "value": "0x65BCa6e57210d8eb7f7754AC28C6725fC60fe248"
+      },
+      {
+        "trait_type": "签署日期",
+        "display_type": "date",
+        "value": 1658460628497
+      },
+      {
+        "trait_type": "签署方",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "Singing  Drinking  Cheering , We are Palling",
+    "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/9.png",
+    "name": "探险家 #9",
+    "tokenId": "9",
+    "attributes": [
+      {
+        "trait_type": "荣誉类型",
+        "value": "探险家"
+      },
+      {
+        "trait_type": "获奖人",
+        "value": "0x65BCa6e57210d8eb7f7754AC28C6725fC60fe248"
+      },
+      {
+        "trait_type": "签署日期",
+        "display_type": "date",
+        "value": 1658460628497
+      },
+      {
+        "trait_type": "签署方",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "Singing  Drinking  Cheering , We are Palling",
+    "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/10.png",
+    "name": "航海家 #10",
+    "tokenId": "10",
+    "attributes": [
+      {
+        "trait_type": "荣誉类型",
+        "value": "航海家"
+      },
+      {
+        "trait_type": "获奖人",
+        "value": "0xE85E9e10F57742ab90C33D6044546f1bD7a0928e"
+      },
+      {
+        "trait_type": "签署日期",
+        "display_type": "date",
+        "value": 1658460628497
+      },
+      {
+        "trait_type": "签署方",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "Singing  Drinking  Cheering , We are Palling",
+    "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/11.png",
+    "name": "航海家 #11",
+    "tokenId": "11",
+    "attributes": [
+      {
+        "trait_type": "荣誉类型",
+        "value": "航海家"
+      },
+      {
+        "trait_type": "获奖人",
+        "value": "0xc639B40D4340AA2062b3860519D13b6E2b6da600"
+      },
+      {
+        "trait_type": "签署日期",
+        "display_type": "date",
+        "value": 1658460628497
       },
       {
         "trait_type": "签署方",

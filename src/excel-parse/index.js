@@ -25,6 +25,7 @@ fs.readFile(path.join(__dirname, './data.txt'), (err, res) => {
             description: "Singing  Drinking  Cheering , We are Palling",
             image: `https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/${item.tokenId}.png`,
             name: `${item.type} #${item.tokenId}`,
+            tokenId: item.tokenId,
             attributes:
                 [{trait_type: '荣誉类型', value: item.type},
                     {trait_type: '获奖人', value: item.userAddress},
@@ -35,10 +36,12 @@ fs.readFile(path.join(__dirname, './data.txt'), (err, res) => {
     })
     // 生成单文件-总文件
     fs.writeFileSync(path.join(__dirname, './metadata.json'), JSON.stringify(resultJSON, null, 2))
+    fs.writeFileSync(path.join(__dirname, '../images-gen/src/data/data.json'), JSON.stringify(resultJSON, null, 2))
     // 生成多文件-单文件
-    resultJSON.forEach((item, index) => {
-        fs.writeFileSync(path.join(__dirname, `../metadata/${index}.json`), JSON.stringify(item, null, 2))
-    })
+    for (let i = 0; i < resultJSON.length; i++) {
+        console.log(resultJSON[i])
+        fs.writeFileSync(path.join(__dirname, `../metadata/${resultJSON[i].tokenId}.json`), JSON.stringify(resultJSON[i], null, 2))
+    }
 
     if (!isError) {
         console.log("解析成功");

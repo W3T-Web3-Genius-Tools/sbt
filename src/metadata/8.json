@@ -1,8 +1,8 @@
 {
   "description": "Singing  Drinking  Cheering , We are Palling",
-  "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/3.png",
-  "name": "航海家 #3",
-  "tokenId": "3",
+  "image": "https://raw.githubusercontent.com/CheersPals/cheerspalsofficial/main/images/8.png",
+  "name": "航海家 #8",
+  "tokenId": "8",
   "attributes": [
     {
       "trait_type": "荣誉类型",
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "获奖人",
-      "value": "0x0F4dC55461E12427Ee7746a76cD58Cd95bf0a7Ea"
+      "value": "0x65BCa6e57210d8eb7f7754AC28C6725fC60fe248"
     },
     {
       "trait_type": "签署日期",
