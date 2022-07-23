@@ -4,6 +4,8 @@
 
 ## 功能
 
+<a href="https://opensea.io/" title="Buy on OpenSea" target="_blank"><img style="width:100px; border-radius:5px; box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);" src="https://storage.googleapis.com/opensea-static/Logomark/Badge%20-%20Available%20On%20-%20Light.png" alt="The Great Seafaring Era" /></a>
+
 本合约仅owner可以调用。
 
 - [x] 遵循ERC721A标准；
