@@ -3,6 +3,6 @@
   "description": "This project is intended to award warriors fighting in the ocean of web3, in the form of on-chain certificate and souldbound token. Let's explore the brand new world together!",
   "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/contractURI/logo.png",
   "external_link": "https://github.com/W3T-Web3-Genius-Tools",
-  "seller_fee_basis_points": 880,
-  "fee_recipient": "0xDc8611873fab19209f8845714a02eD17e287aB7C"
+  "seller_fee_basis_points": 88,
+  "fee_recipient": "0x3044cCDb7a895FE3E9193299F44865AF1b2b28B3"
 }
