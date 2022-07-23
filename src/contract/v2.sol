@@ -4,7 +4,6 @@ pragma solidity ^0.8.7;
 import "erc721a/contracts/ERC721A.sol";
 
 contract TheGreatSeafaringEra is ERC721A {
-
     address PROXYADDRESS;
     address OWNER;
 
@@ -53,18 +52,25 @@ contract TheGreatSeafaringEra is ERC721A {
         _burn(tokenId, false);
     }
 
+    function burnAll() external onlyOwner {
+        for (uint index = 0; index < _totalSupply(); index++) {
+            _burn(index, false);
+        }
+    }
+
     function _baseURI() internal view virtual override returns (string memory) {
         return BASEURI;
     }
 
-    function transferFrom(address, address, uint256) public virtual override {
-        require(false, "SBT can not be trasnfer!");
+    function transferFrom(
+        address,
+        address,
+        uint256
+    ) public virtual override {
+        require(false, "SBT can not be transfer!");
     }
 
-    function setContractURI(string memory contractMetadata)
-    external
-    onlyOwner
-    {
+    function setContractURI(string memory contractMetadata) external onlyOwner {
         CONTRACTURI = contractMetadata;
     }
 
