@@ -3,6 +3,7 @@
   "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/0.png",
   "name": "Rookie–Badge of Navigators #0",
   "tokenId": "0",
+  "external_url": "https://github.com/W3T-Web3-Genius-Tools",
   "attributes": [
     {
       "trait_type": "Type of Honor",
@@ -15,7 +16,7 @@
     {
       "trait_type": "Signature Date",
       "display_type": "date",
-      "value": 1658503510874
+      "value": 1658576720286
     },
     {
       "trait_type": "Signatories",

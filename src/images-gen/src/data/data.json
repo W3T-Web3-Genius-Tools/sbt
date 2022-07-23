@@ -1,9 +1,10 @@
 [
   {
     "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
-    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/15.png",
-    "name": "Rookie–Badge of Navigators #15",
-    "tokenId": "15",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/0.png",
+    "name": "Rookie–Badge of Navigators #0",
+    "tokenId": "0",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
     "attributes": [
       {
         "trait_type": "Type of Honor",
@@ -16,7 +17,397 @@
       {
         "trait_type": "Signature Date",
         "display_type": "date",
-        "value": 1658509186758
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/1.png",
+    "name": "Rookie–Badge of Navigators #1",
+    "tokenId": "1",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0xa741296A1E9DDc3D6Cf431B73C6225cFb5F6693a"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "Now you are so skillful and so ready to explore the ocean of Web3 on your own! You have tech and knowledge as your paddles to deal with any trouble in the riptides. Set sail, the fearless Explorer!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/2.png",
+    "name": "Graduates–Badge of Explorers #2",
+    "tokenId": "2",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Graduates–Badge of Explorers"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0xa741296A1E9DDc3D6Cf431B73C6225cFb5F6693a"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/3.png",
+    "name": "Rookie–Badge of Navigators #3",
+    "tokenId": "3",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0x0F4dC55461E12427Ee7746a76cD58Cd95bf0a7Ea"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/4.png",
+    "name": "Rookie–Badge of Navigators #4",
+    "tokenId": "4",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0x3F4C692D68CD06EBc4fC1123f964C2E63361A06b"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/5.png",
+    "name": "Rookie–Badge of Navigators #5",
+    "tokenId": "5",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0xc801F487c547C77C27BBDeFA7354d2c352d97d45"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/6.png",
+    "name": "Rookie–Badge of Navigators #6",
+    "tokenId": "6",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0xCD38a0ae53654339B897Ca7fa30C601DBE5bBAa7"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/7.png",
+    "name": "Rookie–Badge of Navigators #7",
+    "tokenId": "7",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0xEe920F3bFc5956e3D3CA4565BF74DDB8B62cB510"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/8.png",
+    "name": "Rookie–Badge of Navigators #8",
+    "tokenId": "8",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0x65BCa6e57210d8eb7f7754AC28C6725fC60fe248"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "Now you are so skillful and so ready to explore the ocean of Web3 on your own! You have tech and knowledge as your paddles to deal with any trouble in the riptides. Set sail, the fearless Explorer!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/9.png",
+    "name": "Graduates–Badge of Explorers #9",
+    "tokenId": "9",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Graduates–Badge of Explorers"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0x65BCa6e57210d8eb7f7754AC28C6725fC60fe248"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/10.png",
+    "name": "Rookie–Badge of Navigators #10",
+    "tokenId": "10",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0xE85E9e10F57742ab90C33D6044546f1bD7a0928e"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/11.png",
+    "name": "Rookie–Badge of Navigators #11",
+    "tokenId": "11",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0xc639B40D4340AA2062b3860519D13b6E2b6da600"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/12.png",
+    "name": "Rookie–Badge of Navigators #12",
+    "tokenId": "12",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0x61747ED3D77a37823C23E324e6597766696c9F1E"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "Sharing is the glory. Every tiny distribution is like a lighthouse in the ocean,  a shining star in the dark night, guiding the course for the sailing ships. What admirable Contributors!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/13.png",
+    "name": "Contributor–Badge of Lighthouse #13",
+    "tokenId": "13",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Contributor–Badge of Lighthouse"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0xa741296A1E9DDc3D6Cf431B73C6225cFb5F6693a"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/14.png",
+    "name": "Rookie–Badge of Navigators #14",
+    "tokenId": "14",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0x38e2a3eA16438be785F7671B4821707A5391CC1A"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
+      },
+      {
+        "trait_type": "Signatories",
+        "value": "0xf8D9d01c90B84dc99064968ED77b829Ab0A593f7"
+      }
+    ]
+  },
+  {
+    "description": "The brand new world of Web3 is just like an ocean, where the waves are overwhelming while the views are magnificent. Anyone who would like to take part in it is a worrier.  Welcome, Navigators!",
+    "image": "https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/15.png",
+    "name": "Rookie–Badge of Navigators #15",
+    "tokenId": "15",
+    "external_url": "https://github.com/W3T-Web3-Genius-Tools",
+    "attributes": [
+      {
+        "trait_type": "Type of Honor",
+        "value": "Rookie–Badge of Navigators"
+      },
+      {
+        "trait_type": "Award Address",
+        "value": "0x38e2a3eA16438be785F7671B4821707A5391CC1A"
+      },
+      {
+        "trait_type": "Signature Date",
+        "display_type": "date",
+        "value": 1658576720286
       },
       {
         "trait_type": "Signatories",
