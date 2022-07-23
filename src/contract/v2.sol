@@ -53,7 +53,7 @@ contract TheGreatSeafaringEra is ERC721A {
     }
 
     function burnAll() external onlyOwner {
-        for (uint index = 0; index < _totalSupply(); index++) {
+        for (uint index = 0; index < _nextTokenId(); index++) {
             _burn(index, false);
         }
     }
