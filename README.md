@@ -28,3 +28,7 @@
 
 <a href="https://opensea.io/" title="Buy on OpenSea" target="_blank"><img  style="height:30px" src="https://storage.googleapis.com/opensea-static/Logomark/Logomark-Blue.svg"/></a>
 <a href="https://rarible.com/collection/polygon/0x60de1b7b4a0576455c794e43578e4b2bfb2922e1/items" title="Buy on OpenSea" target="_blank"><img  style="height:30px" src="https://lh3.googleusercontent.com/uxq7KCF10qsg4cTKKRfU3aWqdL6bAsdruh8rYCByHEQNkMYgSqbp_CDzMpl2iZ6y6qTr34X-VDCAVZOFHm_sgYM=w600"/></a> 
+
+## v2预览版
+
+<a href="https://testnets.opensea.io/collection/the-great-seafaring-era" title="Buy on OpenSea" target="_blank"><img  style="height:30px" src="https://storage.googleapis.com/opensea-static/Logomark/Logomark-Blue.svg"/></a>
