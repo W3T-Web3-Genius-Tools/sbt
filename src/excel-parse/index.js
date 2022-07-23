@@ -41,6 +41,7 @@ fs.readFile(path.join(__dirname, './data.txt'), (err, res) => {
             image: `https://raw.githubusercontent.com/W3T-Web3-Genius-Tools/sbt/main/src/metadata/images/${item.tokenId}.png`,
             name: `${tokenType[item.type].tag} #${item.tokenId}`,
             tokenId: item.tokenId,
+            external_url: "https://github.com/W3T-Web3-Genius-Tools",
             attributes:
                 [{trait_type: 'Type of Honor', value: tokenType[item.type].tag},
                     {trait_type: 'Award Address', value: item.userAddress},
